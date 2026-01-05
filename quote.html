@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Get Quote</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<section class="content">
+  <h2>Get a No-Obligation Quote</h2>
+
+  <form action="https://formspree.io/f/mnjnwqyb" method="POST" class="quote-form">
+    <input type="hidden" name="_subject" value="Quote Request – Nexus Financial">
+    <input type="text" name="name" placeholder="Full Name" required>
+    <input type="tel" name="phone" placeholder="Phone Number" required>
+    <input type="email" name="email" placeholder="Email" required>
+
+    <select name="quote_type" required>
+      <option value="">Select Quote Type</option>
+      <option>RESP</option>
+      <option>FHSA</option>
+      <option>TFSA</option>
+      <option>RRSP</option>
+      <option>Retirement Planning</option>
+      <option>Estate Planning</option>
+    </select>
+
+    <textarea name="details" placeholder="Details"></textarea>
+    <input type="text" name="_gotcha" style="display:none">
+    <button type="submit">Submit</button>
+  </form>
+</section>
+
+</body>
+</html>
