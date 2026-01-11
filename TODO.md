@@ -1,0 +1,3 @@
+- State which components/menu you want to update
+- Images - tag them properly with the area you want them in
+- Cert setup
